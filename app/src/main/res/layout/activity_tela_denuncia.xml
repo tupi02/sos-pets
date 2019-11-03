@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.amandacruz.sospets.TelaDenuncia">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="230dp"
+                            android:layout_margin="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/cao3" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Contatos  de denúncia a maus tratos aos animais"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/holo_orange_light"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="    Delegacia Eletrônica de Proteção Animal(DEPA):   "
+                            android:textAlignment="textEnd"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="As denúncias podem ser feitas pelo site:
+                        www.ssp.sp.gov.br/depa."
+                            android:textAlignment="textEnd"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:text="Disque Denúncia Animal:     "
+                            android:textAlignment="viewEnd"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Atende o estado de São Paulo por meio do
+                        0800 600 6428. "
+                            android:textAlignment="textEnd"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:text="Zoonoses:     "
+                            android:textAlignment="viewEnd"
+                            android:textColor="@android:color/background_light"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:text="Atende a cidade de Ferraz de Vasconcelos
+                        (11)4674-3458 e (11) 4675-7627"
+                            android:textAlignment="textEnd"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="Tree's Technology©"
+                            android:textAlignment="center"
+                            android:layout_margin="6dp"/>
+                </LinearLayout>
+        </ScrollView>
+
+
+</LinearLayout>

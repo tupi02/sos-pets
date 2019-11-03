@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.amandacruz.sospets.TelaUsuario">
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="225sp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="195dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bannerkrl" />
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="195dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/banneramanda" />
+
+            <ImageView
+                android:layout_width="365dp"
+                android:layout_height="195dp"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cao2" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- <TextView
+                 android:layout_width="386dp"
+                 android:layout_height="wrap_content"
+                 android:text="Ajude um animalzinho"
+                 android:textAlignment="center"
+                 android:textColor="#ffffff"
+                 android:textSize="24sp" />
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="320dp"
+                 android:layout_margin="10dp"
+                 android:scaleType="fitXY"
+                 android:src="@drawable/button" />
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="320dp"
+                 android:layout_margin="10dp"
+                 android:scaleType="fitXY"
+                 android:src="@drawable/button" />
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="320dp"
+                 android:scaleType="fitXY"
+                 android:src="@drawable/button"
+                 android:layout_margin="10dp"/>
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="320dp"
+                 android:scaleType="fitXY"
+                 android:src="@drawable/button"
+                 android:layout_margin="10dp"/>-->
+            <TextView
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Ajude um animalzinho"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="347dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:elevation="0dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Relatar localização"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="346dp"
+                android:layout_height="77dp"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Adoção"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="345dp"
+                android:layout_height="72dp"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="doações"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/denuncia"
+                android:layout_width="346dp"
+                android:layout_height="74dp"
+                android:layout_margin="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="denúncias"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
